@@ -1,21 +1,15 @@
 const japanCities = [
     {
         cityName: "Tokyo",
-        cityPopulation: 37274000,
-        cityDescription: "Japan is the oldest known city for XXXXXXXX",
-        citySiteLink: "LINKTOWEBSITE"
+        cityPopulation: "37.2M",
+        cityDescription: "Tokyo is the capital and largest city of Japan. It's metropolitan area is the most populous in the world.",
+        citySiteLink: "https://en.wikipedia.org/wiki/Tokyo"
     },
     {
-        cityName: "Tokyo",
-        cityPopulation: 37274000,
-        cityDescription: "Japan is the oldest known city for XXXXXXXX",
-        citySiteLink: "LINKTOWEBSITE"
-    },
-    {
-        cityName: "Tokyo",
-        cityPopulation: 37274000,
-        cityDescription: "Japan is the oldest known city for XXXXXXXX",
-        citySiteLink: "LINKTOWEBSITE"
+        cityName: "Kyoto",
+        cityPopulation: "1.4M",
+        cityDescription: "Kyoto is one of the oldest municipalities in Japan, chosen in 794 as the new seat of Japan's imperial court.",
+        citySiteLink: "https://en.wikipedia.org/wiki/Kyoto"
     }
 
 ]
