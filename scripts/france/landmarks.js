@@ -14,6 +14,6 @@ const franceLandmarks = [
     },
 ]
 
-export const getJapanLandmarks = () => {
+export const getFranceLandmarks = () => {
     return franceLandmarks;
 }
