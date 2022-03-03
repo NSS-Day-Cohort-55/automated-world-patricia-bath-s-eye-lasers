@@ -1,26 +1,19 @@
-const japanLandmarks = [
+const franceLandmarks = [
     {
-        landmarkName: "landmark name here",
-        landmarkYearCreated: "1985",
-        landmarkDescription: "landmark description here",
-        landmarkSiteLink: "link to landmark site here"
+        landmarkName: "Eiffle Tower",
+        landmarkYearCreated: "1887",
+        landmarkDescription: "The Eiffle Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+        landmarkSiteLink: "https://en.wikipedia.org/wiki/Eiffel_Tower"
                 
     },
     {
-        landmarkName: "landmark name here",
-        landmarkYearCreated: "1985",
-        landmarkDescription: "landmark description here",
-        landmarkSiteLink: "link to landmark site here"
+        landmarkName: "Louvre Museum",
+        landmarkYearCreated: "1190...kinda",
+        landmarkDescription: "is the world's most-visited museum, and a historic landmark in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo.",
+        landmarkSiteLink: "https://en.wikipedia.org/wiki/Louvre"
     },
-    {
-        landmarkName: "landmark name here",
-        landmarkYearCreated: "1985",
-        landmarkDescription: "landmark description here",
-        landmarkSiteLink: "link to landmark site here"
-    }
-
 ]
 
 export const getJapanLandmarks = () => {
-    return japanLandmarks;
+    return franceLandmarks;
 }
