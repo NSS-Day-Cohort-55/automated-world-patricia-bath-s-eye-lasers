@@ -1,0 +1,64 @@
+/* --------------
+    global styles
+ ----------------*/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* ---------
+    layout
+ ------------*/
+
+.navbar {
+    display:flex;
+    background-color: #C9D6DF;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 1rem;
+}
+
+.country {
+    display: flex;
+}
+
+.country__info {
+    flex-basis: 33%;
+}
+
+.country__container {
+    flex-basis: 66%;
+}
+
+.info {
+    display: flex;
+}
+
+.info__cities,
+.info__landmark,
+.info__celeb {
+    flex-basis: 33%;
+    padding: 1em;
+}
+
+.info__cities {
+    background-color: #F0F5F9;
+}
+
+.info__landmark {
+    background-color: #C9D6DF;
+}
+
+.info__celeb {
+    background-color: #52616B;
+    color: white;
+}
+
+.footer {
+    background-color: #D4DFE7;
+}
