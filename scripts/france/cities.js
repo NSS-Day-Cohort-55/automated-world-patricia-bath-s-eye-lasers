@@ -1,25 +1,21 @@
-const japanCities = [
+const franceCities = [
     {
-        cityName: "Tokyo",
-        cityPopulation: 37274000,
-        cityDescription: "Japan is the oldest known city for XXXXXXXX",
-        citySiteLink: "LINKTOWEBSITE"
+        cityName: "Paris",
+        cityPopulation: '2.2 M',
+        cityDescription: "Paris is the capital and most populous city of France.",
+        citySiteLink: "https://en.wikipedia.org/wiki/Paris",
+        image: ''
     },
     {
-        cityName: "Tokyo",
-        cityPopulation: 37274000,
-        cityDescription: "Japan is the oldest known city for XXXXXXXX",
-        citySiteLink: "LINKTOWEBSITE"
-    },
-    {
-        cityName: "Tokyo",
-        cityPopulation: 37274000,
-        cityDescription: "Japan is the oldest known city for XXXXXXXX",
-        citySiteLink: "LINKTOWEBSITE"
+        cityName: "Marseille",
+        cityPopulation: '1.6 M',
+        cityDescription: "Founded around 600 BC by Greek settlers from Phocaea, Marseille is the oldest city of France, as well as one of Europe's oldest continuously inhabited.",
+        citySiteLink: "https://en.wikipedia.org/wiki/Marseille",
+        image: ''
     }
 
 ]
 
 export const getJapanCities = () => {
-    return japanCities;
+    return franceCities;
 }

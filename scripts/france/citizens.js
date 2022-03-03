@@ -1,26 +1,19 @@
-const japanCitizens = [
+const franceCitizens = [
     {
-        citizenName: "Japanese citizen name here",
-        citizenOccupation: "meow mix",
-        citizenDescription: "famous swedish hockey player known for x.",
-        citizenSiteLink: "link to website here"
+        citizenName: "Joan of Arc",
+        citizenOccupation: "Military personnel",
+        citizenDescription: "Joan has been venerated as a martyr since her death and a national symbol of France.",
+        citizenSiteLink: "https://en.wikipedia.org/wiki/Joan_of_Arce"
         
     },
     {
-        citizenName: "Japanese citizen name here",
-        citizenOccupation: "meow mix",
-        citizenDescription: "famous swedish hockey player known for x.",
-        citizenSiteLink: "link to website here" 
+        citizenName: "René Descartes",
+        citizenOccupation: "Pretty much everything.",
+        citizenDescription: "René Descartes was a French philosopher, mathematician, scientist and lay Catholic who invented analytic geometry, linking the previously separate fields of geometry and algebra. He spent a large portion of his working life in the Dutch Republic.",
+        citizenSiteLink: "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes" 
     },
-    {
-        citizenName: "Japanese citizen name here",
-        citizenOccupation: "meow mix",
-        citizenDescription: "famous swedish hockey player known for x.",
-        citizenSiteLink: "link to website here"
-    }
-
 ]
 
 export const getJapanCitizens = () => {
-    return japanCitizens;
+    return franceCitizens;
 }
