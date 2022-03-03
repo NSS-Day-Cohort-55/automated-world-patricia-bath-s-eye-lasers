@@ -14,6 +14,6 @@ const franceCitizens = [
     },
 ]
 
-export const getJapanCitizens = () => {
+export const getFranceCitizens = () => {
     return franceCitizens;
 }
