@@ -66,3 +66,13 @@ ul {
 .footer {
     background-color: #D4DFE7;
 }
+
+.info__link:visited,
+.info__link {
+    color: black;
+}
+
+.info__celeb,
+.info__celeb .info__link:visited {
+    color: white;
+}
