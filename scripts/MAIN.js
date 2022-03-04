@@ -4,6 +4,11 @@ import { getFrance } from "./france/main.js";
 import { getIndia } from "./india/main.js"
 import { getJapan } from "./japan/main.js"
 
+import { injectURL } from "./btn-randomLink.js"
+
+const randomButton = document.querySelector(".btn")
+randomButton.addEventListener('click', injectURL(randomButton));
+
 
 
 
