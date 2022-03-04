@@ -2,7 +2,21 @@
 //returns the html string
 
 const buildHeaderString = (country) => {
+    let headerHTMLString = '';
 
+    headerHTMLString += `
+        <article class="country__info">
+            <h1 class="country__headline">
+                ${country.countryName}
+            </h1>
+            <p class="country__dscr">
+                ${country.countryHeadline}
+            </p>
+        </article>
+        <div class="country__container">
+            <img class="country__image" src="./images/${country}/${country}.jpg" alt="country">   
+        </div>
+    `
 }
 
 
@@ -83,4 +97,5 @@ export const renderHTML = (country) => {
 
     // headerEl.innerHTML = buildHeaderString(country)
     infoEl.innerHTML = buildMainString(country)
+    headerEl.innerHTML = buildHeaderString(country)
 }
