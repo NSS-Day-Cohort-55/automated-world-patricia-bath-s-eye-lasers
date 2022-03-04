@@ -14,9 +14,10 @@ const buildHeaderString = (country) => {
             </p>
         </article>
         <div class="country__container">
-            <img class="country__image" src="./images/${country}/${country}.jpg" alt="country">   
+            <img class="country__image" src="./images/${country.countryName}/${country.countryName}.jpg" alt="country">   
         </div>
     `
+    return headerHTMLString;
 }
 
 
@@ -95,7 +96,6 @@ export const renderHTML = (country) => {
     const headerEl = document.querySelector(".country")
     const infoEl = document.querySelector(".info")
 
-    // headerEl.innerHTML = buildHeaderString(country)
-    infoEl.innerHTML = buildMainString(country)
     headerEl.innerHTML = buildHeaderString(country)
+    infoEl.innerHTML = buildMainString(country)
 }

@@ -6,10 +6,15 @@ const cityList = getCroatiaCities();
 const landmarkList = getCroatiaLandmarks();
 const citizenList = getCroatiaCitizens();
 
-export const croatia = {
-    countryName: "Croatia",
-    countryHeadline: "The Country of 1000 Islands",
-    cities: cityList,
-    landmarks: landmarkList,
-    citizens: citizenList
+
+export const getCroatia = () => {
+    const croatia = {
+        countryName: "Croatia",
+        countryHeadline: "The Country of 1000 Islands",
+        cities: cityList,
+        landmarks: landmarkList,
+        citizens: citizenList
+    }
+    
+    return croatia
 }
