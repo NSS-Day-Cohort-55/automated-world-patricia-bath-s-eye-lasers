@@ -24,5 +24,5 @@ export const getLinkURL = () => {
 }
 
 export const injectURL = (element) => {
-    element.href = getLinkURL()
+    element.href = getLinkURL()       //not sure if should be .href or .innerHTML
 }
