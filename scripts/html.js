@@ -95,7 +95,7 @@ const buildMainString = (country) => {
 export const renderHTML = (country) => {
     const headerEl = document.querySelector(".country")
     const infoEl = document.querySelector(".info")
-
+    console.log(country)
     headerEl.innerHTML = buildHeaderString(country)
     infoEl.innerHTML = buildMainString(country)
 }
