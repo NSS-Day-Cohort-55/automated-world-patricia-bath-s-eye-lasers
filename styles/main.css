@@ -21,22 +21,6 @@ ul {
     layout
  ------------*/
 
-.navbar {
-    display:flex;
-    background-color: #C9D6DF;
-}
-
-.navbar ul {
-    list-style-type: none;
-    display: flex;
-    margin: 1rem;
-}
-
-.logo__image {
-    width: 100px;
-    height: 100px;
-}
-
 .country {
     display: flex;
 }
