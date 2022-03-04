@@ -3,13 +3,18 @@ import { getJapanLandmarks } from "./landmarks.js"
 import { getJapanCitizens } from "./citizens.js"
 
 const cityList = getJapanCities();
-const landmarkList = getJapaniaLandmarks();
+const landmarkList = getJapanLandmarks();
 const citizenList = getJapanCitizens();
 
-export const japan = {
-    countryName: "Japan",
-    countryHeadline: "The Land of the Rising Sun",
-    cities: cityList,
-    landmarks: landmarkList,
-    citizens: citizenList
+
+export const getJapan = () => {
+    const japan = {
+        countryName: "Japan",
+        countryHeadline: "The Land of the Rising Sun",
+        cities: cityList,
+        landmarks: landmarkList,
+        citizens: citizenList
+    }
+
+    return japan
 }
