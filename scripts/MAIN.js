@@ -9,11 +9,22 @@ import { getJapan } from "./japan/main.js"
 // const randomButton = document.querySelector(".btn")
 // randomButton.addEventListener('click', injectURL(randomButton));
 
+
+renderHTML (getCroatia())
+
+const navEls = document.querySelectorAll(".navbar__link")
+
 const croatiaEl = document.getElementById("croatia")
 croatiaEl.addEventListener("click", () => {
     const croatia = new Promise((resolve, reject) => {
         resolve(getCroatia());
-    }).then((value) => {renderHTML(value)})
+    }).then((value) => {
+        renderHTML(value)
+        for(link of navEls) {
+            link.classList.remove("active")
+        }
+        croatiaEl.classList.add("active")
+    })
 })
 
 const franceEl = document.getElementById("france")
