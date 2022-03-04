@@ -1,3 +1,5 @@
-import { infoHTML } from "./france/main.js";
+import { renderHTML } from "./html.js";
+import { france } from "./france/main.js";
 
-infoHTML()
+
+renderHTML(france)
