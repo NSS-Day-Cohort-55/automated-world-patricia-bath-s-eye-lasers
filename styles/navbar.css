@@ -46,9 +46,11 @@
     width: 90px;
   }
   
-  .navbar .navbar__ul li a:active {
-      background-color: #52616B;
-  }
+
+
+.active {
+  background-color: #52616B;
+}
 
 .navbar {
     display:flex;

@@ -16,7 +16,7 @@ const indiaLandmarks = [
         landmarkName: "Taj Mahal",
         landmarkYearCreated: "1648",
         landmarkDescription: "An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife, the Taj Mahal is the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.",
-        landmarkSiteLink: "https://whc.unesco.org/en/list/252/#:~:text=An%20immense%20mausoleum%20of%20white,masterpieces%20of%20the%20world's%20heritage."
+        landmarkSiteLink: "https://en.wikipedia.org/wiki/Taj_Mahal"
     }
 
 ]

@@ -42,8 +42,7 @@ const buildMainString = (country) => {
                 Population: ${city.cityPopulation}</p>
             <p class="info__info">
                 ${city.cityDescription}</p>
-            <a class="info__link">
-                ${city.citySiteLink}</a>
+            <a class="info__link" href="${city.citySiteLink}">${city.cityName}</a>
          `
     }
     //Column 2 - Landmarks
@@ -62,8 +61,7 @@ const buildMainString = (country) => {
                 Established: ${landmark.landmarkYearCreated}</p>
             <p class="info__info">
                 ${landmark.landmarkDescription}</p>
-            <a class="info__link">
-                ${landmark.landmarkSiteLink}</a>
+            <a class="info__link" href="${landmark.landmarkSiteLink}">${landmark.landmarkName}</a>
         `
     }
     //Column 3 - Citizens
@@ -82,8 +80,7 @@ const buildMainString = (country) => {
                 ${citizen.citizenOccupation}</p>
             <p class="info__info info--light-text">
                 ${citizen.citizenDescription}</p>
-            <a class="info__link info--light-text">
-                 ${citizen.citizenSiteLink}</a>
+            <a class="info__link info--light-text" href="${citizen.citizenSiteLink}">${citizen.citizenName}</a>
         `
     }
     htmlString += '</section>'
