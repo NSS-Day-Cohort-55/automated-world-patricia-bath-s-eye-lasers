@@ -13,15 +13,21 @@
   
   .navbar .navbar__ul li a {
     display: block;
+    font-size: 25px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 38px;
     text-decoration: none;
+    width: 50px;
+    transition-property: width background-color;
+    transition-duration: 600ms;
   }
   
   .navbar .navbar__ul li a:hover {
     color: #C9D6DF;
     background-color: #F0F5F9;
+    text-decoration: underline;
+    width: 90px;
   }
   
   .navbar .navbar__ul li a:active {
