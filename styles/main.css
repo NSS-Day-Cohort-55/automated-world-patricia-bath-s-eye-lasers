@@ -32,7 +32,7 @@ ul {
 .info__cities,
 .info__landmark,
 .info__celeb {
-    flex-basis: 33%;
+    flex-basis: 100%;
     padding: 1em;
 }
 
