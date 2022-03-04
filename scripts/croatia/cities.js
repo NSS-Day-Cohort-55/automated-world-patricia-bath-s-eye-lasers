@@ -15,6 +15,6 @@ const croatiaCities = [
     }
 ]
 
-export const getcroatiaCities = () => {
-    return japanCities;
+export const getCroatiaCities = () => {
+    return croatiaCities;
 }
